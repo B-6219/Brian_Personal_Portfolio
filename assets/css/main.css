@@ -1,0 +1,61 @@
+/* ===== universal css =====*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+/*=====color code======*/
+:root{
+    --main:hsl(0, 0%, 0%);
+    --neon:hsl(120, 80%, 46%);
+    --sub-main:hsl(0, 0%, 100%);
+    --orange:hsl(39, 100%, 50%);
+}
+/* =====hero_section =====*/
+.home_section{
+    background-color: var(--main);
+
+}
+.home_section .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.home_section .nav .nav_logo h3{
+    color: var(--neon);
+    font-size: 25px;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home_section .nav .nav_content {
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.home_section .nav .nav_content ul{
+    display: flex;
+    gap: 20px;
+}
+.home_section .nav .nav_content ul li a{
+    color: var(--orange);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home_section .nav .nav_content ul li a:hover{
+    color: var(--neon);
+}
+/**====== hero section =======*/
+.hero_section{
+    display: flex;
+    gap:50px;
+}
+.hero_section .hero_image {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 16px;
+    overflow: hidden;
+    border-radius: 50%; 
+    width: fit-content;
+    height:fit-content;
+}
