@@ -1,0 +1,36 @@
+/*
+        =========== skills section styles =============
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+:root{
+    --background:#264653;
+    --hero_text:#2A9D8F;
+    --black:000000;
+    --neon:#18ed18;
+    --theme:#FCA311;
+    --text:#FFFFFF;
+}
+body{
+    background: var(--background);
+    box-sizing: border-box;
+}
+
+.skills_box{
+    width: 900px;
+    display: flex;
+    gap: 10px;
+}
+
+.skill_1 img{
+    height: 300px;
+    width: 100px;
+}
