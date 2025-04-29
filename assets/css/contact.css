@@ -1,0 +1,100 @@
+/*
+        =========== contact section styles =============
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+:root{
+    --textarea:hsl(0, 0%, 50%);
+    --background:#264653;
+    --hero_text:#2A9D8F;
+    --black:#000000;
+    --neon:#18ed18;
+    --theme:#FCA311;
+    --text:#FFFFFF;
+}
+body{
+    background: var(--background);
+    box-sizing: border-box;
+}
+.btn button{
+    background-color: var(--theme);
+    color: var(--black);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.contact{
+    margin: 10px;
+    border-radius: 10px;
+    background: var(--black);
+    color: var(--text);
+}
+.contact_content{
+    display: flex;
+    gap: 250px;
+}
+.contact_title{
+    margin: 20px 10px
+}
+.contact_title h3{
+    color: var(--text);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    padding: 10px 0;
+}
+.contact_title span a{
+    color:var(--background);
+    text-decoration: none;
+}
+.contact_title span a:active{
+    color: var(--hero_text);
+    text-decoration: underline;
+}
+.contact_title span a:hover{
+    color: var(--hero_text);
+    text-decoration: underline;
+}
+.user_input{
+    border: 1px solid var(--black);
+}
+.user_input input{
+    background: var(--textarea);
+    width: 450px;
+    height: 30px;
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius: 10px;
+}
+.user_input textarea{
+    background: var(--textarea);
+    width: 450px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius: 10px;
+}
+.user_input textarea :placeholder-shown{
+    color: #000000;
+}
+.user_input input :placeholder-shown{
+    color: black;
+}
+
+footer{
+    background:var(--textarea) ;
+    color: var(--black);
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+footer span{
+    color: var(--black);
+    font-size: 1em;
+}
